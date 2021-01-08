@@ -1,0 +1,28 @@
+.portfolio-hover {
+background: rgba(240, 89, 124, 0.85) none repeat scroll 0 0;
+color: #fff;
+padding: 5px;
+position: absolute;
+text-align: center;
+top: 0;
+display: none;
+}
+.single-portfolio-item {
+position: relative;
+margin-bottom: 30px;
+}
+.portfolio-hover-content {
+border: 1px solid #fff;
+}
+.portfolio-hover-content h4 {
+margin: 80px 55px 0;
+text-transform: uppercase;
+}
+.portfolio-hover-content p {
+font-size: 12px;
+margin: 10px 54px 71px;
+text-transform: uppercase;
+}
+.single-portfolio-item:hover .portfolio-hover {
+display: block;
+}

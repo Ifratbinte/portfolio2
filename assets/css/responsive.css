@@ -1,0 +1,82 @@
+/*For Laptop screen only*/
+@media only screen and (min-width: 768px) and (max-width: 1024){
+	
+	
+	
+}
+
+/*For tablet screen only*/
+@media only screen and (max-width:767px){
+	
+	
+	body{text-align: center}
+	.logo{width:33%;float: left}
+	.logo h1{font-size: 25px;}
+	.main-menu{width: 66%;float:left;}
+	.main-menu ul li a{font-size: 9px;padding:10px 19px}
+	.welcome-slider > h1{font-size: 200%;}
+	.welcome-slider > p{font-size:20px; }
+  .section-title h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+	.service-fact-icon{margin-left: 31%;}
+	.about-area p{font-size: 13px}
+	.portfolio-hover{width: 100%;}
+	.single-portfolio-item{width: 48%;margin-bottom:4px;margin-left:2px;float: left}
+	.sonny_progressbar p.title{font-size: 15px;}
+	.single-experience-box{width:48%;float:left;margin-bottom:4px;margin-left:2px;border:0px solid #E2E2E2;}
+	.single-academic-box{width:100%;float:left;margin-bottom:4px;margin-left:2px;border:0px solid #E2E2E2;}
+}
+
+
+
+
+/*For mobile screen only*/
+@media only screen and (max-width: 480px) { 
+  body{font-size:14px;text-align;center;}
+	.logo{width: 100%;}
+  .logo a {text-align: center;}
+	.logo h1{font-size:30px}
+	
+	.main-menu{width:100%;text-align: center;}
+	.main-menu ul li{width:100%;}
+	.main-menu ul li a{font-size: 13px;}
+	
+	.service-fact-icon{margin-left: 35px;}
+	
+	.welcome-slider h1{font-size:30px;}
+	.section-title h2{font-size:25px;}
+	.single-service-box{margin-bottom:10px;}
+    .single-experience-box h4{text-align:center;}
+	.single-academic-box h4{text-align:center;}
+	.single-academic-detail{text-align:center;}
+	.single-experience-detail p{text-align:center;}
+	.map-area{
+		width:100%;
+		position:relative;}
+		
+	.footer-widget ul li{width:100%;}
+	.copyright-info p{text-align:center;}
+	.single-experience-box {width:100%;float:left;margin-left:2px;border:0px solid #E2E2E2;}
+	
+	.single-academic-box {
+    border: 0px solid #E2E2E2;
+}
+    .single-blog-post {
+        border: 1px solid #ddd;
+        margin-bottom: 10px;
+    }
+    
+	.blog-meta span {
+    padding-left: 30px;
+	text-align:center;}
+	
+	.span blog-date{width:100%;}
+	.span blog-author{width:100%;}
+	.span blog-category{width:100%;}
+	.portfolio-hover-content h4 {margin: 45px 55px 0;}
+}
